@@ -7,7 +7,7 @@
 name = 'bopscrk.py'
 desc = 'A tool to generate smart and powerful wordlists for targeted attacks'
 __version__ = '2.4.5'
-__author__ = 'r3nt0n'
+__author__ = 'toussoul/r3nt0n'
 __status__ = 'Development'
 
 
