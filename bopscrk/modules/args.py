@@ -116,11 +116,11 @@ class Arguments:
         leet = input('  {}[?]{} Do yo want to make leet transforms? [y/n] >>> '.format(color.BLUE, color.END))
         case = input('  {}[?]{} Do yo want to make case transforms? [y/n] >>> '.format(color.BLUE, color.END))
 
-        if leet.lower() == 'y': self.leet = True
-        else: self.leet = False
+        if leet.lower() == 'n': self.leet = False
+        else: self.leet = True
 
-        if case.lower() == 'y': self.case = True
-        else: self.case = False
+        if case.lower() == 'n': self.case = False
+        else: self.case = True
 
         while True:
             n_words = input('  {}[?]{} How much words do you want to combine at most [{}] >>> '.format(color.BLUE, color.END, self.DEFAULT_N_WORDS))
